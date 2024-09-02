@@ -1,0 +1,14 @@
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+action.c(305): Resource "https://petstore.octoperf.com/images/banner_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Registered web_reg_find successful for "Text=Please confirm the information below and then" (count=1)  	[MsgId: MMSG-26364]
+action.c(305): web_submit_data("Order.action") was successful, 1680 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+action.c(332): Notify: Transaction "script3_Continue_T008" ended with a "Pass" status (Duration: 0,0930 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+action.c(342): lr_think_time: 10,00 seconds.	[MsgId: MMSG-15948]
+action.c(344): Notify: Transaction "script_Confirm_T009" started.	[MsgId: MMSG-16999]
+action.c(346): web_reg_find started  	[MsgId: MMSG-26355]
+action.c(346): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+action.c(350): web_url("Confirm") started  	[MsgId: MMSG-26355]
+action.c(350): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

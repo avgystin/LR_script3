@@ -1,0 +1,77 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2021
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2021.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2021.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+action=action.c
+__main__=__main__.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+action=1
+__main__=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+action=1
+__main__=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+action=1
+__main__=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+action=cci
+__main__=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="script3_start_T001__*delimiter*__script3_login_T002__*delimiter*__script3_animal_T003__*delimiter*__script3_bulldog_T004__*delimiter*__script3_MaleAdultBulldog_T005__*delimiter*__script3_AddToCart_T006__*delimiter*__script3_ProceedToCheckout_T007__*delimiter*__script3_Continue_T008__*delimiter*__script_Confirm_T009__*delimiter*__script3_start_T001__*delimiter*__script3_login_T002__*delimiter*__script3_animal_T003__*delimiter*__script3_bulldog_T004__*delimiter*__script3_MaleAdultBulldog_T005__*delimiter*__script3_AddToCart_T006__*delimiter*__script3_ProceedToCheckout_T007__*delimiter*__script3_Continue_T008__*delimiter*__script_Confirm_T009"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+script3_start_T001=
+script3_login_T002=
+script3_animal_T003=
+script3_bulldog_T004=
+script3_MaleAdultBulldog_T005=
+script3_AddToCart_T006=
+script3_ProceedToCheckout_T007=
+script3_Continue_T008=
+script_Confirm_T009=
+[Rendezvous]
+script3_start=

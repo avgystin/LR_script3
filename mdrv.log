@@ -1,0 +1,290 @@
+Virtual User Script started at: 25.08.2024 20:46:31
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\ura\Desktop\LR_scripts\script3\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action __main__.
+action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+action.c(5): web_cache_cleanup started  	[MsgId: MMSG-26355]
+action.c(5): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+action.c(6): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+action.c(6): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+action.c(10): Notify: Transaction "script3_start_T001" started.
+action.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+action.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+action.c(14): web_url("Catalog.action") started  	[MsgId: MMSG-26355]
+action.c(14): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/logo-topbar.svg" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/cart.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/separator.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/sm_fish.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/sm_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/sm_reptiles.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/sm_cats.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/sm_birds.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/fish_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/dogs_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(14): web_url("Catalog.action") was successful, 51838 body bytes, 4573 header bytes  	[MsgId: MMSG-26386]
+action.c(24): Notify: Transaction "script3_start_T001" ended with a "Pass" status (Duration: 1,1500 Wasted Time: 0,0716).
+action.c(26): Rendezvous script3_start
+action.c(35): Notify: Transaction "script3_login_T002" started.
+action.c(37): web_url("Sign In") started  	[MsgId: MMSG-26355]
+action.c(37): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(37): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(37): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(37): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(37): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(37): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(37): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(37): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(37): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(37): web_url("Sign In") was successful, 1635 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+action.c(47): web_reg_find started  	[MsgId: MMSG-26355]
+action.c(47): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+action.c(51): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+action.c(51): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+action.c(60): web_submit_data("Account.action") started  	[MsgId: MMSG-26355]
+action.c(60): Redirecting "https://petstore.octoperf.com/actions/Account.action" (redirection depth is 0)  	[MsgId: MMSG-26694]
+action.c(60): To location "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26693]
+action.c(60): Notify: Saving Parameter "animals_1 = FISH".
+action.c(60): Notify: Saving Parameter "animals_2 = DOGS".
+action.c(60): Notify: Saving Parameter "animals_3 = REPTILES".
+action.c(60): Notify: Saving Parameter "animals_4 = CATS".
+action.c(60): Notify: Saving Parameter "animals_5 = BIRDS".
+action.c(60): Notify: Saving Parameter "animals_6 = FISH".
+action.c(60): Notify: Saving Parameter "animals_7 = DOGS".
+action.c(60): Notify: Saving Parameter "animals_8 = CATS".
+action.c(60): Notify: Saving Parameter "animals_9 = REPTILES".
+action.c(60): Notify: Saving Parameter "animals_10 = BIRDS".
+action.c(60): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/fish_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/dogs_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/cats_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/reptiles_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/birds_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Resource "https://petstore.octoperf.com/images/splash.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(60): Found resource "https://petstore.octoperf.com/images/banner_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+action.c(60): Registered web_reg_find successful for "Text=Welcome" (count=3)  	[MsgId: MMSG-26364]
+action.c(60): Notify: Saving Parameter "T002Count = 3".
+action.c(60): Notify: Saving Parameter "animals_count = 10".
+action.c(60): web_submit_data("Account.action") was successful, 7875 body bytes, 752 header bytes  	[MsgId: MMSG-26386]
+action.c(76): Notify: Parameter Substitution: parameter "T002Count" =  "3"
+action.c(78): Notify: Transaction "script3_login_T002" ended with a "Pass" status (Duration: 0,6228 Wasted Time: 0,0135).
+action.c(90): Notify: Parameter Substitution: parameter "animals_count" =  "10"
+action.c(90): Notify: Parameter Substitution: parameter "animals_3" =  "REPTILES"
+action.c(91): Notify: Saving Parameter "PRrandomAnimal = REPTILES".
+action.c(93): Notify: Transaction "script3_animal_T003" started.
+action.c(96): web_reg_find started  	[MsgId: MMSG-26355]
+action.c(96): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+action.c(100): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+action.c(100): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+action.c(109): web_url("sm_dogs.gif") started  	[MsgId: MMSG-26355]
+action.c(109): Notify: Parameter Substitution: parameter "PRrandomAnimal" =  "REPTILES"
+action.c(109): Notify: Saving Parameter "AnimalId_1 = RP-SN-01".
+action.c(109): Notify: Saving Parameter "AnimalId_2 = RP-LI-02".
+action.c(109): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Resource "https://petstore.octoperf.com/images/banner_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(109): Registered web_reg_find successful for "Text=<th>Name<" (count=1)  	[MsgId: MMSG-26364]
+action.c(109): Notify: Saving Parameter "T003Count = 1".
+action.c(109): Notify: Saving Parameter "AnimalId_count = 2".
+action.c(109): web_url("sm_dogs.gif") was successful, 1414 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+action.c(119): Notify: Parameter Substitution: parameter "T003Count" =  "1"
+action.c(121): Notify: Transaction "script3_animal_T003" ended with a "Pass" status (Duration: 0,1109 Wasted Time: 0,0037).
+action.c(129): Notify: Parameter Substitution: parameter "animals_count" =  "10"
+action.c(133): Notify: Parameter Substitution: parameter "animals_1" =  "FISH"
+action.c(136): *********************Animal[1]: FISH
+action.c(133): Notify: Parameter Substitution: parameter "animals_2" =  "DOGS"
+action.c(136): *********************Animal[2]: DOGS
+action.c(133): Notify: Parameter Substitution: parameter "animals_3" =  "REPTILES"
+action.c(136): *********************Animal[3]: REPTILES
+action.c(133): Notify: Parameter Substitution: parameter "animals_4" =  "CATS"
+action.c(136): *********************Animal[4]: CATS
+action.c(133): Notify: Parameter Substitution: parameter "animals_5" =  "BIRDS"
+action.c(136): *********************Animal[5]: BIRDS
+action.c(133): Notify: Parameter Substitution: parameter "animals_6" =  "FISH"
+action.c(136): *********************Animal[6]: FISH
+action.c(133): Notify: Parameter Substitution: parameter "animals_7" =  "DOGS"
+action.c(136): *********************Animal[7]: DOGS
+action.c(133): Notify: Parameter Substitution: parameter "animals_8" =  "CATS"
+action.c(136): *********************Animal[8]: CATS
+action.c(133): Notify: Parameter Substitution: parameter "animals_9" =  "REPTILES"
+action.c(136): *********************Animal[9]: REPTILES
+action.c(133): Notify: Parameter Substitution: parameter "animals_10" =  "BIRDS"
+action.c(136): *********************Animal[10]: BIRDS
+action.c(144): Notify: Transaction "script3_bulldog_T004" started.
+action.c(146): web_reg_find started  	[MsgId: MMSG-26355]
+action.c(146): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+action.c(150): Notify: Parameter Substitution: parameter "AnimalId_count" =  "2"
+action.c(150): Notify: Parameter Substitution: parameter "AnimalId_1" =  "RP-SN-01"
+action.c(151): Notify: Saving Parameter "PRrandomAnimalId = RP-SN-01".
+action.c(153): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+action.c(153): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+action.c(161): web_url("K9-BD-01") started  	[MsgId: MMSG-26355]
+action.c(161): Notify: Parameter Substitution: parameter "PRrandomAnimalId" =  "RP-SN-01"
+action.c(161): Notify: Parameter Substitution: parameter "PRrandomAnimal" =  "REPTILES"
+action.c(161): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Resource "https://petstore.octoperf.com/images/banner_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(161): Notify: Saving Parameter "ItemsId_1 = EST-11".
+action.c(161): Notify: Saving Parameter "ItemsId_2 = EST-12".
+action.c(161): Notify: Saving Parameter "ItemsId_count = 2".
+action.c(161): Registered web_reg_find successful for "Text=<th>Description<" (count=1)  	[MsgId: MMSG-26364]
+action.c(161): Notify: Saving Parameter "T004Count = 1".
+action.c(161): web_url("K9-BD-01") was successful, 1537 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+action.c(171): Notify: Parameter Substitution: parameter "T004Count" =  "1"
+action.c(173): Notify: Transaction "script3_bulldog_T004" ended with a "Pass" status (Duration: 0,0802 Wasted Time: 0,0048).
+action.c(180): Notify: Parameter Substitution: parameter "AnimalId_count" =  "2"
+action.c(184): Notify: Parameter Substitution: parameter "AnimalId_1" =  "RP-SN-01"
+action.c(187): *********************AnimalID[1]: RP-SN-01
+action.c(184): Notify: Parameter Substitution: parameter "AnimalId_2" =  "RP-LI-02"
+action.c(187): *********************AnimalID[2]: RP-LI-02
+action.c(195): Notify: Transaction "script3_MaleAdultBulldog_T005" started.
+action.c(197): Notify: Parameter Substitution: parameter "ItemsId_count" =  "2"
+action.c(197): Notify: Parameter Substitution: parameter "ItemsId_1" =  "EST-11"
+action.c(198): Notify: Saving Parameter "PRRandomItemId = EST-11".
+action.c(200): web_reg_find started  	[MsgId: MMSG-26355]
+action.c(200): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+action.c(204): web_url("EST-6") started  	[MsgId: MMSG-26355]
+action.c(204): Notify: Parameter Substitution: parameter "PRRandomItemId" =  "EST-11"
+action.c(204): Notify: Parameter Substitution: parameter "PRrandomAnimalId" =  "RP-SN-01"
+action.c(204): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Found resource "https://petstore.octoperf.com/images/snake1.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-11"  	[MsgId: MMSG-26659]
+action.c(204): Resource "https://petstore.octoperf.com/images/banner_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(204): Registered web_reg_find successful for "Text=>Add to Cart<" (count=1)  	[MsgId: MMSG-26364]
+action.c(204): Notify: Saving Parameter "T005Count = 1".
+action.c(204): web_url("EST-6") was successful, 14569 body bytes, 536 header bytes  	[MsgId: MMSG-26386]
+action.c(214): Notify: Parameter Substitution: parameter "T005Count" =  "1"
+action.c(216): Notify: Transaction "script3_MaleAdultBulldog_T005" ended with a "Pass" status (Duration: 0,1792 Wasted Time: 0,0040).
+action.c(223): Notify: Parameter Substitution: parameter "ItemsId_count" =  "2"
+action.c(227): Notify: Parameter Substitution: parameter "ItemsId_1" =  "EST-11"
+action.c(230): *********************item[1]: EST-11
+action.c(227): Notify: Parameter Substitution: parameter "ItemsId_2" =  "EST-12"
+action.c(230): *********************item[2]: EST-12
+action.c(238): Notify: Transaction "script3_AddToCart_T006" started.
+action.c(240): web_reg_find started  	[MsgId: MMSG-26355]
+action.c(240): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+action.c(244): web_url("Add to Cart") started  	[MsgId: MMSG-26355]
+action.c(244): Notify: Parameter Substitution: parameter "PRRandomItemId" =  "EST-11"
+action.c(244): Notify: Parameter Substitution: parameter "PRRandomItemId" =  "EST-11"
+action.c(244): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Resource "https://petstore.octoperf.com/images/banner_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(244): Registered web_reg_find successful for "Text=Update Cart" (count=1)  	[MsgId: MMSG-26364]
+action.c(244): Notify: Saving Parameter "T006Count = 1".
+action.c(244): web_url("Add to Cart") was successful, 1882 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+action.c(254): Notify: Parameter Substitution: parameter "T006Count" =  "1"
+action.c(256): Notify: Transaction "script3_AddToCart_T006" ended with a "Pass" status (Duration: 0,0904 Wasted Time: 0,0038).
+action.c(268): Notify: Transaction "script3_ProceedToCheckout_T007" started.
+action.c(270): web_reg_find started  	[MsgId: MMSG-26355]
+action.c(270): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+action.c(275): web_url("Proceed to Checkout") started  	[MsgId: MMSG-26355]
+action.c(275): Notify: Parameter Substitution: parameter "PRRandomItemId" =  "EST-11"
+action.c(275): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Resource "https://petstore.octoperf.com/images/banner_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(275): Registered web_reg_find successful for "Text=Ship to different address..." (count=1)  	[MsgId: MMSG-26364]
+action.c(275): Notify: Saving Parameter "T007Count = 1".
+action.c(275): web_url("Proceed to Checkout") was successful, 2082 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+action.c(285): Notify: Parameter Substitution: parameter "T007Count" =  "1"
+action.c(287): Notify: Transaction "script3_ProceedToCheckout_T007" ended with a "Pass" status (Duration: 0,0858 Wasted Time: 0,0034).
+action.c(299): Notify: Transaction "script3_Continue_T008" started.
+action.c(301): web_reg_find started  	[MsgId: MMSG-26355]
+action.c(301): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+action.c(305): web_submit_data("Order.action") started  	[MsgId: MMSG-26355]
+action.c(305): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Resource "https://petstore.octoperf.com/images/banner_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(305): Registered web_reg_find successful for "Text=Please confirm the information below and then" (count=1)  	[MsgId: MMSG-26364]
+action.c(305): Notify: Saving Parameter "T008Count = 1".
+action.c(305): web_submit_data("Order.action") was successful, 1683 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+action.c(330): Notify: Parameter Substitution: parameter "T008Count" =  "1"
+action.c(332): Notify: Transaction "script3_Continue_T008" ended with a "Pass" status (Duration: 0,1241 Wasted Time: 0,0034).
+action.c(344): Notify: Transaction "script_Confirm_T009" started.
+action.c(346): web_reg_find started  	[MsgId: MMSG-26355]
+action.c(346): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+action.c(350): web_url("Confirm") started  	[MsgId: MMSG-26355]
+action.c(350): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Resource "https://petstore.octoperf.com/images/banner_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+action.c(350): Registered web_reg_find successful for "Text=Thank you, your order has been submitted." (count=1)  	[MsgId: MMSG-26364]
+action.c(350): Notify: Saving Parameter "T009Count = 1".
+action.c(350): web_url("Confirm") was successful, 1896 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+action.c(361): Notify: Parameter Substitution: parameter "T009Count" =  "1"
+action.c(363): Notify: Transaction "script_Confirm_T009" ended with a "Pass" status (Duration: 0,0802 Wasted Time: 0,0034).
+*********************Имя LG-хоста:DESKTOP-22H87KC, Vuser:-1, Конец итерации:1
+Ending action __main__.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 13664), ended OK."

@@ -1,0 +1,6 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Starting action __main__.	[MsgId: MMSG-15919]
+__main__.c(3): Error: C interpreter run time error: __main__.c (3):  Error -- Unresolved symbol : dog.	[MsgId: MERR-19890]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
